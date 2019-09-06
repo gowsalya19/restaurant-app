@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Restaurant App</title>
+  <script>
+    function selectedcity()
+    {
+      var d=document.getElementById("city").value;
+    }
+    function select()
+    {
+      var d=document.getElementById("city").value;
+      console.log(d)
+    }
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+{{!-- <div class="container-fluid"> --}}
+   <h1>Restaurant App</h1>
+  <img src='/img/1r.jpg' class="images" height="200px">
+  <br>
+  <br>
+  <center>
+    <form method="GET">
+    <h2>Search Restaurent</h2>
+   <select name="citys" id="city" onchange="selectedcity();">
+     <option value="0">Select City</option>
+    <option value="7">Chennai</option>
+    <option value="3">Mumbai</option>
+    <option value="1">Delthi</option>
+    <option value="4">Bangaluru</option>
+    <option value="6">Hyderabad</option>
+  </select>
+  {{!-- <textarea id="text"></textarea> --}}
+  <button type="submit" class="btn btn-primary btn-lg "onclick="select();" formaction="/book">Submit</button>
+  <br>
+  <br>
+   
+ 
+
+ </form>
+
+ 
+</body>
+</html>

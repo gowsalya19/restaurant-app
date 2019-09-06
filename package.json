@@ -1,0 +1,20 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "document": "^0.4.7",
+    "dropdown-menu": "^0.1.1",
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "jsdom": "^15.1.1",
+    "request": "^2.88.0"
+  }
+}

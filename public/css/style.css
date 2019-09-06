@@ -1,0 +1,39 @@
+h1{
+    color:brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-style: italic;
+}
+h2{
+    color: indianred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-style: oblique;
+}
+img{
+    height: 50%;
+}
+p{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;    
+}
+.main{
+    text-align:left;
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-style:italic;
+}
+.button
+{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: larger;
+    background-color: crimson;
+}
+b{
+    color: brown;
+}
+
